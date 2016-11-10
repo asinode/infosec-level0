@@ -79,7 +79,7 @@ Criticality -- describes the time sensitivity of data. This is usually driven by
 States of Data
 -------------
 
-*At Rest -- File system encryptions, EFS, TPM -- this is static, not manipulated, just stored. *
+At Rest -- File system encryptions, EFS, TPM -- this is static, not manipulated, just stored.
 	- Windows used Encrypted File System (EFS). This is owned by Windows and not a third party tool, which is an important point to remember. 
 	- EFS may not fully protective if somebody got the hard disk and tried to open it in a linux system. 
 	- EFS does protect the data even in this case, but only to an extent. 
@@ -91,7 +91,7 @@ Trusted Platform Modules (TPM) -- is created exactly to address this disadvantag
 	- Explore about BitLocker technology, PGP .... these can do the 'locking of entire drive'. 
 	- The necessary keys don't have to be necessarily on the TPM chip, you can store it wherever you want it but ensure it is safe.
 
-*In Process -- This is basically when you are doing some work with the data within your computer.* 
+In Process -- This is basically when you are doing some work with the data within your computer. 
 	- In this case, there is nothing particular in terms of protection. Best practices like, never leave your system unlocked, etc. are the only means by which you can protect this data.
 
-*In Transit -- This is very crucial because the data is out on the network somewhere. Essentially, it is out of your hands.*
+In Transit -- This is very crucial because the data is out on the network somewhere. Essentially, it is out of your hands.
